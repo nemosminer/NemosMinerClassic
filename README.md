@@ -53,19 +53,9 @@ Additional features list
  Update Notifier 
   
      Will show update meassage when a new version of NemosMiner is Avavilible 
+     
 *****
- 
-This is a free project, and is forked from github.com/nemosminer/nemosminer
-Feel free to donate to the original creators:
 
-aaronsace = 1MsrCoAt8qM53HUMsUxvy9gMj3QVbHLazH
-
-nemo = 1QGADhdMRpp9Pk5u5zG1TrHKRrdK5R81TE
-
-MrPlus = 134bw4oTorEJUUVFhokDQDfNqTs7rBMNYy
-
-
-*****
 instructions:
 
 edit startpoolname.bat
@@ -80,8 +70,10 @@ edit startpoolname.bat
 
 note. instruction number 1 : is different for miningpoolhub, you need to change user name and worker name
 
+*****
+ 
 If you have Windows 7, 8, or 8.1, please update PowerShell:
-https://www.microsoft.com/en-us/download/details.aspx?id=50395
+https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
 CCMiner may need 'MSVCR120.dll' if you don't already have it:
 https://www.microsoft.com/en-gb/download/details.aspx?id=40784
@@ -91,22 +83,23 @@ https://www.microsoft.com/en-us/download/details.aspx?id=48145
 
 running multiple cards its recommended to increase Virtual Memory 64gb is optimal
 
-Requires nvidia driver 391.*
+recommended/optimal Nvidia driver 416.94 / http://us.download.nvidia.com/Windows/416.94/416.94-desktop-win10-64bit-international-whql.exe
 
-Made For & Tested with 6x10603gb 6x1070 6x1070ti 6x1080ti (users have reported up to 12cards working have not tested myself)
+Made For & Tested with 6x1060 6gb 6x1070 6x1070ti 6x1080ti 6x2070 6x2080 6x2080ti (users have reported up to 12cards working have not tested myself)
+Some miners do not support more that 9 cards
 
-there is a 15minute per day fee (1%)
+*****
+
+
+there is a default 5minute per day fee (0.3%) that can be disabled by changing -Donate 5 to 0
 
 -ActiveMinerGainPct (percent of advantage that active miner has over candidates in term of profit (default 3%)
 
 24hr.bats.. eg. startahashpool24hr.bat  startzpool24hr.bat.. (uses last 24hour Actual API too request profit)
    -Low switching rate
-plus.bats.. eg. startahashpoolplus.bat  startzpoolplus.bat.. (uses advanced calculations to maximize profit)
-   -Best switching rate
 normal .bats uses estimates.. eg. startahashpool.bat   startzpool.bat..   (uses current estimate API too request profit)
 
-
-This is a free project, and is forked from github.com/nemosminer/nemosminer
+This is a free project
 Feel free to donate to the original creators:
 
 aaronsace = 1MsrCoAt8qM53HUMsUxvy9gMj3QVbHLazH
