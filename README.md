@@ -1,4 +1,4 @@
-# NemosMinerClassic-v2.5.3
+# NemosMinerClassic-v2.5.4
 multi algo profit switching NVIDIA miner 
 ### 
  
