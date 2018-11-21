@@ -24,6 +24,7 @@ $Commands = [PSCustomObject]@{
     "bcd"               = " -a bcd" #Bcd
     "x17"               = " -a x17" #X17
     "bitcore"           = " -a bitcore" #Bitcore
+    "exosis"            = " -a exosis" #exosis
     "hmq1725"           = " -a hmq1725" #Hmq1725
 }
 
